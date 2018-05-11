@@ -1,0 +1,21 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="top">
+	<view class="userinfo">
+	  <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+	  <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+	</view>
+	<view class="todo-task">
+	  <view style="font-size: 40rpx;">待接受：1</view>
+	  <view style="font-size: 40rpx;margin-top: 20rpx;">已接受：1</view>
+	</view>
+  </view>
+  <view class="my-task">
+  	<view bindtap='acceptTask'><image src="../../images/my-icon/accept.png"></image>接受任务</view>
+  	<view bindtap='publishTask'><image src="../../images/my-icon/publish.png"></image>发布任务</view>
+  </view>
+   <view class="my-info">
+  	<view><image src="../../images/my-icon/contact.png"></image>联系客服</view>
+  	<view><image src="../../images/my-icon/about.png"></image>关于我们</view>   	
+   </view>
+</view>

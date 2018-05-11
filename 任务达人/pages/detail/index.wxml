@@ -1,0 +1,19 @@
+<view class="container">
+  	<view class="top">
+		<view class="title">{{title}}</view>
+		<view class="money"><text style="font-size: 30rpx;">￥</text>{{money}}</view>  
+		<view class="time">截至时间：2018-05-05 15:18</view>		
+  	</view>
+
+  	<view class="introduce-container">
+  		<view class="introduce-top">
+  			<image src="../../images/introduce.png" style="width: 50rpx;height:50rpx;"></image>
+  			<text style="font-size: 35rpx;color: #9E9DA1;margin-left: 20rpx;">任务简介</text>
+  		</view>
+  		<view class="introduce-info">
+  			{{introduce}}
+  		</view>
+  	</view>
+	<view class="confirm-on" bindtap="confirmOn" >接下任务</view>
+<!-- 	<view class="confirm-off" bindtap="confirmOff" wx:else>取消任务</view> -->
+</view>

@@ -1,0 +1,54 @@
+/* pages/detail/index.wxss */
+.top{
+	background: #FEAA24;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: white;
+	font-size: 45rpx;
+	padding: 10rpx 30rpx 30rpx 30rpx;
+}
+.top view{
+	margin-top: 20rpx;
+}
+.top .money{
+	font-size: 50rpx;
+}
+.top .time{
+	font-size: 30rpx;
+}
+.introduce-top{
+	display: flex;
+	align-items: center;
+	padding: 10rpx 20rpx;
+	border-top: 1px solid #F5F8F8;
+	border-bottom: 1px solid #F5F8F8;
+}
+.introduce-info{
+	padding: 20rpx 20rpx;
+	font-size:38rpx;
+}
+.confirm-off{
+	position: fixed;
+	bottom: 0;
+	background: red;
+	height: 130rpx;
+	width: 100%;
+	color: white;
+	font-size:45rpx;
+	line-height: 130rpx;
+	text-align: center;
+	letter-spacing: 5rpx;
+}
+.confirm-on{
+	position: fixed;
+	bottom: 0;
+	background: #44B549;
+	height: 130rpx;
+	width: 100%;
+	color: white;
+	font-size:45rpx;
+	line-height: 130rpx;
+	text-align: center;
+	letter-spacing: 5rpx;
+}

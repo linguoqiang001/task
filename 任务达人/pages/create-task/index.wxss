@@ -1,0 +1,33 @@
+/* pages/create-task/index.wxss */
+page{
+  min-height: 100%;
+  background: #F3F4F6;
+}
+.container{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.form{
+  width: 95%;
+  margin-top:20rpx;
+}
+.form view{
+  background: white;
+  padding: 20rpx 25rpx; 
+  border-radius: 10rpx;
+}
+textarea{
+  width:100%;
+  padding-top: 20rpx;
+}
+.end-time{
+  display: flex;
+  align-items: center;
+  margin-top: 20rpx;
+}
+.money{
+  display: flex;
+  align-items: center;
+  margin-top: 20rpx;
+}

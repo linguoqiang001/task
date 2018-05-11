@@ -1,0 +1,30 @@
+/* pages/my-accept/index.wxss */
+.list{
+  padding: 10rpx 35rpx;
+  border-bottom: 1px solid #E8E8E8;
+}
+.list .list-top{
+  display: flex;
+  justify-content: space-between;
+}
+.list-top .title{
+  font-weight: bold;
+  font-size: 38rpx;
+}
+.list-top .dis{
+  font-size: 33rpx;
+  color:#A0A0A7;
+}
+.list .money{
+  margin-top: 10rpx;
+  color: red;
+  font-size: 45rpx;
+}
+.list .introduce{
+  margin-top: 20rpx;
+  font-size:35rpx;
+  overflow: hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+  color: #A0A0A7;
+}

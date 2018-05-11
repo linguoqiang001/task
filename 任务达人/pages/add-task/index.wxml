@@ -1,0 +1,9 @@
+<view class="container">
+	<view class="add-container">
+		<image src="../../images/task.png"  mode="widthFix"></image>
+	    <view style='color:#F9533E;font-size:55rpx;margin-top:40rpx;'>忙不过来，别逞强</view>
+	    <view style="color:#A8A5A5;font-size:40rpx;margin-top:30rpx;">让别人来帮你</view>
+	    <button style="margin-top:30rpx;width:80%;color:white;background:#F9533E;" bindtap="createTask">创建任务</button>
+	</view>
+	
+</view>

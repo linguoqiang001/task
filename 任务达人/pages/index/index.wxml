@@ -1,0 +1,30 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="top">
+      <view class="userinfo">
+        <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+        <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+      </view>
+      <view class="todo-task">
+        <view>待做任务</view>
+        <view style="margin-top:20rpx;font-size:50rpx;">100</view>
+      </view>
+  </view>
+  <view class="list-container">
+  	<view class="list-filter">
+  		<view class="list-filter-selected">我的附近</view>
+  		<view>距离最短</view>
+  		<view>佣金最高</view>
+  	</view>
+  	<view class="task-list">
+  		<view class="list" bindtap="taskDetail" wx:for-items="{{taskList}}" data-info="{{item}}">
+  			<view class="list-top">
+         			 <text class="title">{{item.title}}</text>
+         			 <text class="dis">{{item.dis}}</text>
+        		</view>
+        	 <view class="money"><text style="font-size: 35rpx;">￥</text>{{item.money}}<text style="font-size: 35rpx;margin-left: 3rpx;">元</text></view>
+  			<view class="introduce">{{item.introduce}}</view>
+  		</view>
+  	</view>
+  </view>
+</view>

@@ -1,0 +1,23 @@
+/* pages/add-task/index.wxss */
+page{
+  min-height: 100%;
+  background: #F3F4F6;
+}
+.container{
+  height: 95vh;
+	display: flex;
+  justify-content: center;
+}
+image{
+  width: 100%;
+}
+.add-container{
+	width: 90%;
+  min-height: 90%;
+  margin-top:20rpx;
+	background: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom:40rpx; 
+}

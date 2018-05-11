@@ -1,0 +1,31 @@
+<!--pages/create-task/index.wxml-->
+<view class="container">
+  <form bindsubmit="submit" class="form">
+    <view>
+      <view class="title">
+         <input placeholder='输入任务标题，10个字以内' maxlength="10"  name="title" value="{{form.title}}" />
+      </view>
+      <view class='introduce' style="border-top:1px solid #F3F4F6;">
+        <textarea  placeholder="任务介绍，50个字以内" maxlength='50' style="height:200rpx;" name="introduce" value="{{form.introduce}}"/>
+      </view>
+    </view>  
+    <view class="money">
+	  佣金：<input type="digit" placeholder="必须大于0" name="money" value="{{form.money}}" />
+    </view>
+    <view class="end-time">
+      <text>截至时间：</text>		
+	  <picker mode="date" value="{{form.endDate}}"  bindchange="dateChange"  name="endDate">
+		<view class="picker">
+		  {{form.endDate}}
+		</view>
+  	  </picker>
+  	  <text style="color:#F3F4F6;font-weight: bold;">|</text>
+	  <picker mode="time" value="{{form.endTime}}" bindchange="timeChange" name="endTime">
+		<view class="picker">
+		  {{form.endTime}}
+		</view>
+	  </picker>
+    </view>
+    <button class="publish-btn" type="primary" style="margin-top:20rpx;" form-type="submit">发布</button>  
+  </form> 
+</view>

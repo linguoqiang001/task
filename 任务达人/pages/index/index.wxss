@@ -1,0 +1,87 @@
+/**index.wxss**/
+.top{
+  background:#44B549; 
+  width: 100%;
+  display: flex;
+  flex-direction:row;
+  justify-content:space-around;
+  padding-bottom: 20rpx;
+}
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.todo-task{
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;
+}
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: white;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
+.list-nav view{
+  padding: 10rpx 0;
+  text-align: center;
+  font-size: 30rpx;
+  font-weight: bold;
+}
+.list-filter{
+  display:flex;
+  justify-content: space-between;
+  font-size: 35rpx;
+  font-weight: bold;
+  color:  #B4B4B4;
+  border-bottom: 1px solid #E8E8E8;
+}
+.list-filter view{
+  padding: 30rpx 35rpx;
+}
+.list-filter-selected{
+  color:black;
+}
+.list{
+  padding: 15rpx 35rpx;
+  border-bottom: 1px solid #E8E8E8;
+}
+.list .list-top{
+  display: flex;
+  justify-content: space-between;
+}
+.list-top .title{
+  font-weight: bold;
+  font-size: 38rpx;
+}
+.list-top .dis{
+  font-size: 33rpx;
+  color:#A0A0A7;
+}
+.list .money{
+  margin-top: 10rpx;
+  color: red;
+  font-size: 45rpx;
+}
+.list .introduce{
+  margin-top: 10rpx;
+  font-size:35rpx;
+  overflow: hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+  color: #A0A0A7;
+}
+.test>view{
+  background: red;
+}

@@ -1,0 +1,62 @@
+/* pages/my/index.wxss */
+page{
+	min-height: 100%;
+  	background: #F3F4F6;
+}
+.top{
+  background:#44B549; 
+  width: 100%;
+  display: flex;
+  flex-direction:row;
+  justify-content:space-around;
+  padding-bottom: 20rpx;
+}
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.todo-task{
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;
+}
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: white;
+}
+.my-task{
+  margin-top: 20rpx;
+  background: white;
+  padding: 0 0 0 30rpx;
+}
+.my-task view{
+  padding: 20rpx 0rpx ;
+  border-bottom: 1rpx solid #F3F4F6;
+  display: flex;
+  align-items: center;
+}
+.my-info{
+  margin-top: 20rpx;
+  background: white;
+  padding: 0 0 0 30rpx;
+}
+.my-info view{
+  display: flex;
+  align-items: center;	
+  padding: 20rpx 0rpx ;
+  border-bottom: 1rpx solid #F3F4F6;
+}
+image{
+	width:40rpx;
+	height: 40rpx;
+	margin-right: 20rpx;
+}

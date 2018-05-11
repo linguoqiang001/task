@@ -1,0 +1,13 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="list" wx:for-items="{{list}}" bindtap="taskDetail" data-info="{{item}}">
+	<view class="list-top">
+	  <text class="title">{{item.title}}</text>
+	  <text class="status" style="color:#FD7300;font-size:35rpx;" wx:if="{{item.status==3}}">处理中</text>
+	  <text class="status" style="color:#44B549;font-size:35rpx;" wx:elif="{{item.satus==1}}">已完成</text>
+	  <text class="status" style="color:#A0A0A7;font-size:35rpx;" wx:else>已取消</text>
+   </view>
+   <view class="money"><text style="font-size: 35rpx;">￥</text>{{item.money}}<text style="font-size: 35rpx;margin-left: 3rpx;">元</text></view>
+   <view class="introduce">{{item.introduce}}</view>
+  </view> 
+</view>
