@@ -15,7 +15,8 @@ Page({
       money:'',
       endDate:'',
       endTime:'',
-    }
+    },
+    item:'132'
   },
 
   /**
@@ -30,7 +31,6 @@ Page({
       [endTime]:o.time
     })
   },
-
   publish:function(){
     var that=this;
     network.GET({
@@ -117,5 +117,8 @@ Page({
         that.publish();
       }
     })
+  },
+  formConfirm:function(){
+  
   }
 })

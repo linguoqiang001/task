@@ -2,6 +2,7 @@
 page{
   min-height: 100%;
   background: #F3F4F6;
+  font-size: 40rpx;
 }
 .container{
   display: flex;
@@ -14,12 +15,15 @@ page{
 }
 .form view{
   background: white;
-  padding: 20rpx 25rpx; 
+ 
   border-radius: 10rpx;
+}
+input{
+   padding: 20rpx 25rpx; 
 }
 textarea{
   width:100%;
-  padding-top: 20rpx;
+  padding: 20rpx 25rpx; 
 }
 .end-time{
   display: flex;

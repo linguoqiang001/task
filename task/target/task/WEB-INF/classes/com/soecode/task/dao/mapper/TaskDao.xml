@@ -11,7 +11,9 @@
 		FROM
 			task
 		WHERE
-			status=#{0}
+			status=#{0} AND userId!=#{1}
+        ORDER BY
+         ${keyword}
 	</select>
 
 	<insert id="createTask" >
@@ -28,13 +30,13 @@
 			userId=#{0}
 	</select>
 
-    <update id="cancelTask">
+    <update id="changeTaskStatus">
         UPDATE
-          task
+        task
         SET
-          status=2
+        status=#{1}
         WHERE
-          id=#{0}
+        id=#{0}
     </update>
 
 	<insert id="addAcceptTask">
@@ -43,14 +45,6 @@
 		)
 	</insert>
 
-    <update id="modifyStatus">
-        UPDATE
-          task
-         SET
-          status=#{1}
-         WHERE
-          id=#{0}
-    </update>
 
     <select id="getAcceptTask" resultType="AcceptTask">
         SELECT
@@ -69,4 +63,22 @@
         WHERE
           id=#{0}
     </select>
+
+    <update id="changeAcceptStatus">
+        UPDATE
+          acceptTask
+        SET
+          status=#{3}
+        WHERE
+          userId=#{0} AND taskId=#{1} AND acceptTime=#{2}
+    </update>
+
+    <update id="changeAcceptStatus2">
+        UPDATE
+          acceptTask
+        SET
+          status=#{1}
+        WHERE
+         taskId=#{0} AND status=#{2}
+    </update>
 </mapper>

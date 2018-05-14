@@ -1,0 +1,3 @@
+<template name="showToast">
+	<view>{{item}}</view>
+</template>

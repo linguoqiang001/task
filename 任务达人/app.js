@@ -1,4 +1,6 @@
 //app.js
+var network = require("./utils/network.js")
+
 App({
   onLaunch: function () {
     // 展示本地存储能力
@@ -7,28 +9,17 @@ App({
     wx.setStorageSync('logs', logs)
 
     // 登录
+    var that=this;
     wx.login({
       success: res => {
-        // 发送 res.code 到后台换取 openId, sessionKey, unionId
-        // console.log(res);
-        // wx.request({
-        //   url: 'https://api.weixin.qq.com/sns/jscode2session?appid=wxa9a66cc68c4f6329&secret=1eaafec7749607902afb8e531f013a37&js_code='+ res.code +'&grant_type=authorization_code',
-        //   data: {},
-        //   header: {
-        //       'content-type': 'application/json'
-        //   },
-        //   success: function(res1) {
-        
-        //     console.log(res1)
-        //   }
-        // })
+        //发送 res.code 到后台换取 openId, sessionKey, unionId
+
       }
     })
     // 获取用户信息
     wx.getSetting({
       success: res => {
-        console.log(12312313213)
-        if (res.authSetting['scope.userInfo']) {
+        if (res.authSetting['scope.userInfo']) {  
           // 已经授权，可以直接调用 getUserInfo 获取头像昵称，不会弹框
           wx.getUserInfo({
             success: res => {
@@ -47,6 +38,7 @@ App({
     })
   },
   globalData: {
-    userInfo:''
+    userId:null,
+    userInfo:null
   }
 })

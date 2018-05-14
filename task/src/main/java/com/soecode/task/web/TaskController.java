@@ -10,6 +10,8 @@ import com.soecode.task.enums.AppointStateEnum;
 import com.soecode.task.exception.NoNumberException;
 import com.soecode.task.exception.RepeatAppointException;
 import com.soecode.task.service.BookService;
+import com.soecode.task.util.HttpRequest;
+import net.sf.json.JSONObject;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -18,6 +20,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.HttpServletRequest;
+import javax.xml.ws.RequestWrapper;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -35,8 +38,8 @@ public class TaskController {
 
 	@RequestMapping(value = "/list", method = RequestMethod.GET)
     @ResponseBody
-	private List<Task> list() {
-		List<Task> list = taskDao.getTaskList(0);
+	private List<Task> list(@RequestParam("userId")String userId,@RequestParam("keyword") String keyword) {
+		List<Task> list = taskDao.getTaskList(0,userId,	keyword);
         return list;
 	}
 
@@ -46,8 +49,7 @@ public class TaskController {
 	@RequestParam("publishTime") String publishTime,@RequestParam("endDate") String endDate,@RequestParam("endTime") String endTime,
 	@RequestParam("money") double money,@RequestParam("latitude") double latitude,@RequestParam("longitude") double longitude) {
 		String id=UUID.randomUUID().toString().replaceAll("-", "");
-	    int flag=taskDao.createTask(id,userId,title,introduce,publishTime,endDate,endTime,money,0,latitude,longitude,0);
-		return flag;
+		return  taskDao.createTask(id,userId,title,introduce,publishTime,endDate,endTime,money,0,latitude,longitude,0);
 	}
 
 	@RequestMapping(value = "/publishTask", method = RequestMethod.GET)
@@ -57,11 +59,10 @@ public class TaskController {
 		return list;
 	}
 
-    @RequestMapping(value = "/cancelTask", method = RequestMethod.GET)
+    @RequestMapping(value = "/changeTaskStatus", method = RequestMethod.GET)
     @ResponseBody
-    private int cancelTask(@RequestParam("id") String id){
-        int flag=taskDao.cancelTask(id);
-        return flag;
+    private int changeTaskStatus(@RequestParam("taskId") String taskId,@RequestParam("status") int status){
+        return taskDao.changeTaskStatus(taskId,status);
     }
 
 	@RequestMapping(value = "/addAcceptTask", method = RequestMethod.GET)
@@ -71,7 +72,7 @@ public class TaskController {
 		Date date=new Date();
 		String acceptTime=df.format(date);
 		int flag=taskDao.addAcceptTask(taskId,userId,acceptTime,0);
-		int flag1=taskDao.modifyStatus(taskId,3);
+		int flag1=taskDao.changeTaskStatus(taskId,2);
 		return flag&flag1;
 	}
 
@@ -83,8 +84,32 @@ public class TaskController {
         for (AcceptTask a:list ) {
             String taskId=a.getTaskId();
             Task t=taskDao.getTask(taskId);
+            t.setStatus(a.getStatus());
+            t.setPublishTime(a.getAcceptTime());
+            t.setUserId(a.getUserId());
             list1.add(t);
         }
         return list1;
 	}
+
+	@RequestMapping(value = "/changeAcceptStatus", method = RequestMethod.GET)
+	@ResponseBody
+	private int changeAcceptStatus(@RequestParam("userId") String userId, @RequestParam("taskId") String taskId,
+	@RequestParam("acceptTime") String acceptTime,@RequestParam("status") int status){
+		return  taskDao.changeAcceptStatus(userId,taskId,acceptTime,status);
+	}
+
+    @RequestMapping(value = "/confirmTask", method = RequestMethod.GET)
+    @ResponseBody
+	private int confirmTask(@RequestParam("taskId") String taskId,@RequestParam("setStatus") int setStatus,@RequestParam("nowStatus") int nowStatus){
+	    return  taskDao.changeAcceptStatus2(taskId,setStatus,nowStatus);
+    }
+
+	@RequestMapping(value = "/getOpenId", method = RequestMethod.GET)
+	@ResponseBody
+	private String getOpenId(@RequestParam ("code") String code){
+        return HttpRequest.sendGet("https://api.weixin.qq.com/sns/jscode2session?" +
+                "appid=wxa9a66cc68c4f6329&" + "secret=1eaafec7749607902afb8e531f013a37&" +
+                "js_code="+ code +"&grant_type=authorization_code","");
+    }
 }

@@ -1,5 +1,8 @@
 <!--pages/create-task/index.wxml-->
+<import src="/template/show-toast/index.wxml" />
+
 <view class="container">
+  <template is="showToast" data="{{...item}}"/>
   <form bindsubmit="submit" class="form">
     <view>
       <view class="title">
@@ -10,17 +13,17 @@
       </view>
     </view>  
     <view class="money">
-	  佣金：<input type="digit" placeholder="必须大于0" name="money" value="{{form.money}}" />
+	    <text style="width:150rpx; padding: 20rpx 25rpx; ">佣金：</text><input type="digit" placeholder="必须大于0" name="money" value="{{form.money}}" style="width:600rpx;" />
     </view>
     <view class="end-time">
-      <text>截至时间：</text>		
-	  <picker mode="date" value="{{form.endDate}}"  bindchange="dateChange"  name="endDate">
+      <text style="width:200rpx;padding:20rpx 20rpx;">截至时间：</text>		
+	  <picker mode="date" value="{{form.endDate}}"  bindchange="dateChange"  name="endDate" style="padding:20rpx 20rpx 20rpx 0;width:240rpx;">
 		<view class="picker">
 		  {{form.endDate}}
 		</view>
   	  </picker>
-  	  <text style="color:#F3F4F6;font-weight: bold;">|</text>
-	  <picker mode="time" value="{{form.endTime}}" bindchange="timeChange" name="endTime">
+  	  <text style="color:#F3F4F6;font-weight: bold;"> | </text>
+	  <picker mode="time" value="{{form.endTime}}" bindchange="timeChange" name="endTime" style="padding:20rpx 0rpx 20rpx 40rpx;width:160rpx;">
 		<view class="picker">
 		  {{form.endTime}}
 		</view>

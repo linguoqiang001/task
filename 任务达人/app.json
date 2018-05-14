@@ -13,7 +13,7 @@
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#44B549",
-    "navigationBarTitleText": "任务达人",
+    "navigationBarTitleText": "做点",
     "navigationBarTextStyle":"white"
   },
   "tabBar": {

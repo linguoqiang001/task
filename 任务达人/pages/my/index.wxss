@@ -43,6 +43,7 @@ page{
   border-bottom: 1rpx solid #F3F4F6;
   display: flex;
   align-items: center;
+  font-size: 35rpx;
 }
 .my-info{
   margin-top: 20rpx;
@@ -53,7 +54,21 @@ page{
   display: flex;
   align-items: center;	
   padding: 20rpx 0rpx ;
-  border-bottom: 1rpx solid #F3F4F6;
+  border-top: 1rpx solid #F3F4F6;
+  font-size: 35rpx;
+}
+.my-info button{
+  display: flex;
+  align-items: center;  
+  background: white;
+  text-align: left;
+  border:none;
+  position:none;
+  padding: 0;
+  font-size: 35rpx;
+}
+.my-info button::after{
+  border: none;
 }
 image{
 	width:40rpx;

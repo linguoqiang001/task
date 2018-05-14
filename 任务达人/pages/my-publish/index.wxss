@@ -37,7 +37,7 @@
   display: flex;
   align-items: center;
   border:1px solid #C3C3C3;
-  height: 50rpx;
+  height: 60rpx;
   padding: 0rpx 20rpx;
   border-radius: 40rpx;
   margin-left: 20rpx;

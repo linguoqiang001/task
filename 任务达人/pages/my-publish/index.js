@@ -30,24 +30,25 @@ Page({
       }
     })
   },
-  cancelTask:function(e){
+  changeTaskStatus:function(e,status){
+    var that=this;
+    wx.request({
+      url:'https://www.zilii.top/task/changeTaskStatus',
+      data:{taskId:e.target.dataset.id,status:status},
+      success:function(){
+        that.getList();
+      }
+    })  
+  },
+  cancelTask:function(e,status){
     var that=this;
     wx.showModal({
       title: '提示',
       content: '确认取消',
       success: function(res) {
         if (res.confirm) {
-          console.log()
-          network.GET({
-            url:'cancelTask',
-            params:{id:e.target.dataset.id},
-            success:function(){
-              that.getList();
-            }
-          })
-        } else if (res.cancel) {
-         
-        }
+          that.changeTaskStatus(e,3)
+        } 
       }
     })
   },
@@ -57,5 +58,39 @@ Page({
       url:'/pages/edit-task/index?'+"title="+o.title+"&introduce="+o.introduce+
       "&endDate="+o.endDate+"&endTime="+o.endTime+"&id="+o.id+"&money="+o.money
     })
+  },
+  deleteTask:function(e){
+    var that=this;
+    wx.showModal({
+      title: '提示',
+      content: '确认删除',
+      success: function(res) {
+        if (res.confirm) {
+          that.changeTaskStatus(e,4)
+        } 
+      }
+    })  
+  },
+  confirmTask:function(e){
+    var that=this;
+    wx.showModal({
+      title: '提示',
+      content: '确认完成',
+      success: function(res) {
+        if (res.confirm) {
+          wx.request({
+            url:'https://www.zilii.top/task/confirmTask',
+            data:{taskId:e.target.dataset.id,setStatus:2,nowStatus:0},
+            success:function(){
+              that.changeTaskStatus(e,1);
+            }
+          })
+        } 
+      }
+    })     
+  },
+  onPullDownRefresh:function(){
+    this.onLoad();
+    wx.stopPullDownRefresh(); 
   }
 })

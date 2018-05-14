@@ -1,13 +1,18 @@
 <!--index.wxml-->
 <view class="container">
-  <view class="list" wx:for-items="{{list}}" bindtap="taskDetail" data-info="{{item}}">
+  <view class="list" wx:for-items="{{list}}" bindtap="taskDetail" data-info="{{item}}" wx:if="{{item.status!=3}}">
 	<view class="list-top">
+	  <!--接受任务状态：0:处理中,1:已取消,2:已完成,3:已删除  -->
 	  <text class="title">{{item.title}}</text>
-	  <text class="status" style="color:#FD7300;font-size:35rpx;" wx:if="{{item.status==3}}">处理中</text>
-	  <text class="status" style="color:#44B549;font-size:35rpx;" wx:elif="{{item.satus==1}}">已完成</text>
-	  <text class="status" style="color:#A0A0A7;font-size:35rpx;" wx:else>已取消</text>
+	  <text class="status" style="color:#FD7300;font-size:35rpx;" wx:if="{{item.status==0}}">处理中</text>
+	  <text class="status" style="color:#A0A0A7;font-size:35rpx;" wx:elif="{{item.status==1}}">已取消</text>
+	  <text class="status" style="color:#44B549;font-size:35rpx;" wx:else>已完成</text>
    </view>
    <view class="money"><text style="font-size: 35rpx;">￥</text>{{item.money}}<text style="font-size: 35rpx;margin-left: 3rpx;">元</text></view>
    <view class="introduce">{{item.introduce}}</view>
+	<view class="option">
+		<view catchtap="cancelTask" data-info="{{item}}" wx:if="{{item.status==0}}">取消订单</view>
+		<view wx:elif="{{item.status==1 || item.status==2}}" data-info="{{item}}" catchtap="deleteTask">删除</view>
+	</view>
   </view> 
 </view>

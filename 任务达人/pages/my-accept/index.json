@@ -1,1 +1,5 @@
-{}
+{
+  "backgroundTextStyle": "dark",
+  "enablePullDownRefresh": true,
+  "navigationBarTitleText": "接受任务"
+}

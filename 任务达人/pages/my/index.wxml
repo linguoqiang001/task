@@ -15,7 +15,7 @@
   	<view bindtap='publishTask'><image src="../../images/my-icon/publish.png"></image>发布任务</view>
   </view>
    <view class="my-info">
-  	<view><image src="../../images/my-icon/contact.png"></image>联系客服</view>
+    <button open-type="contact"><image src="../../images/my-icon/contact.png"></image>联系客服</button>
   	<view><image src="../../images/my-icon/about.png"></image>关于我们</view>   	
    </view>
 </view>

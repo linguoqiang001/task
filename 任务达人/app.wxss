@@ -1,1 +1,4 @@
 /**app.wxss**/
+.cantainer{
+	  font-size: 40rpx;
+}

@@ -46,14 +46,19 @@ Page({
                 cancelText:"返回首页",
                 success:function(res){
                    if(res.confirm){
-                     wx.navigateTo({
+                     wx.redirectTo({
                         url: '/pages/my-accept/index'
                     })
                    }else if(res.cancel){
                     wx.switchTab({
-                      url:'/pages/index/index'
+                      url:'/pages/index/index',
+                      success: function (e) {  
+                        var page = getCurrentPages().pop();  
+                        if (page == undefined || page == null) return;  
+                        page.onLoad();  
+                      }  
                     })
-                   } 
+                  } 
                 }
               })
             }

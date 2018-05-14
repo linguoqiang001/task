@@ -15,32 +15,41 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ErrorTreeViewConfiguration">
+    <option name="hideWarnings" value="true" />
+    <option name="HIDE_WARNINGS" value="true" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TaskController.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="TaskController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/soecode/task/web/TaskController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1860">
-              <caret line="85" column="25" lean-forward="false" selection-start-line="85" selection-start-column="25" selection-end-line="85" selection-end-column="25" />
-              <folding />
+            <state relative-caret-position="411">
+              <caret line="73" column="65" lean-forward="false" selection-start-line="73" selection-start-column="64" selection-end-line="73" selection-end-column="65" />
+              <folding>
+                <element signature="e#3383#3389#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TaskDao.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TaskDao.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/com/soecode/task/dao/mapper/TaskDao.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="54" column="26" lean-forward="false" selection-start-line="54" selection-start-column="26" selection-end-line="54" selection-end-column="26" />
+            <state relative-caret-position="515">
+              <caret line="83" column="9" lean-forward="true" selection-start-line="83" selection-start-column="9" selection-end-line="83" selection-end-column="9" />
               <folding>
-                <marker date="1525864707715" expanded="true" signature="301:350" ph="SELECT * FRO... task" />
-                <marker date="1525864707715" expanded="true" signature="392:482" ph="INSERT INTO task" />
-                <marker date="1525864707715" expanded="true" signature="542:591" ph="SELECT * FRO... task" />
-                <marker date="1525864707715" expanded="true" signature="641:725" ph="UPDATE task " />
-                <marker date="1525864707715" expanded="true" signature="772:828" ph="INSERT INTO acceptTask... " />
-                <marker date="1525864707715" expanded="true" signature="880:969" ph="UPDATE task " />
-                <marker date="1525864707715" expanded="true" signature="1049:1137" ph="SELECT * FRO... acceptTask" />
-                <marker date="1525864707715" expanded="true" signature="1205:1283" ph="SELECT * FRO... task" />
+                <marker date="1526283449550" expanded="true" signature="301:350" ph="SELECT * FRO... task" />
+                <marker date="1526283449550" expanded="true" signature="301:394" ph="SELECT * FRO... task" />
+                <marker date="1526283449550" expanded="true" signature="301:404" ph="SELECT * FRO... task" />
+                <marker date="1526283449550" expanded="true" signature="446:536" ph="INSERT INTO task" />
+                <marker date="1526283449550" expanded="true" signature="596:645" ph="SELECT * FRO... task" />
+                <marker date="1526283449550" expanded="true" signature="701:782" ph="UPDATE task " />
+                <marker date="1526283449550" expanded="true" signature="829:885" ph="INSERT INTO acceptTask... " />
+                <marker date="1526283449550" expanded="true" signature="963:1051" ph="SELECT * FRO... acceptTask" />
+                <marker date="1526283449550" expanded="true" signature="1119:1197" ph="SELECT * FRO... task" />
+                <marker date="1526283449550" expanded="true" signature="1258:1391" ph="UPDATE accep... " />
+                <marker date="1526283449550" expanded="true" signature="1453:1565" ph="UPDATE accep... " />
               </folding>
             </state>
           </provider>
@@ -49,49 +58,9 @@
       <file leaf-file-name="TaskDao.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/soecode/task/dao/TaskDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1260">
-              <caret line="45" column="35" lean-forward="false" selection-start-line="45" selection-start-column="35" selection-end-line="45" selection-end-column="35" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AcceptTask.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/soecode/task/entity/AcceptTask.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="12" column="39" lean-forward="false" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
-              <folding>
-                <element signature="e#197#198#0" expanded="true" />
-                <element signature="e#226#227#0" expanded="true" />
-                <element signature="e#303#304#0" expanded="true" />
-                <element signature="e#340#341#0" expanded="true" />
-                <element signature="e#373#374#0" expanded="true" />
-                <element signature="e#425#426#0" expanded="true" />
-                <element signature="e#469#470#0" expanded="true" />
-                <element signature="e#502#503#0" expanded="true" />
-                <element signature="e#531#532#0" expanded="true" />
-                <element signature="e#575#576#0" expanded="true" />
-                <element signature="e#611#612#0" expanded="true" />
-                <element signature="e#644#645#0" expanded="true" />
-                <element signature="e#673#674#0" expanded="true" />
-                <element signature="e#717#718#0" expanded="true" />
-                <element signature="e#753#754#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Task.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/soecode/task/entity/Task.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="16" column="27" lean-forward="false" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
-              <folding>
-                <element signature="e#433#434#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="129">
+              <caret line="59" column="51" lean-forward="true" selection-start-line="59" selection-start-column="51" selection-end-line="59" selection-end-column="51" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -114,6 +83,9 @@
       <dir>C:\Users\LIN\Documents\GitHub\task\src\test</dir>
     </dirStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
       <projects_view />
@@ -123,18 +95,19 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/.idea/.name" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/spring/spring-dao.xml" />
         <option value="$PROJECT_DIR$/.idea/artifacts/task.xml" />
         <option value="$PROJECT_DIR$/.idea/artifacts/medical_war_exploded.xml" />
         <option value="$PROJECT_DIR$/.idea/artifacts/medical_war.xml" />
         <option value="$PROJECT_DIR$/.idea/artifacts/task_war_exploded.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/jdbc.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/com/soecode/task/entity/Task.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/soecode/task/entity/AcceptTask.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/soecode/task/util/HttpRequest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/soecode/task/entity/Task.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/soecode/task/dao/TaskDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/soecode/task/web/TaskController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/com/soecode/task/dao/mapper/TaskDao.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/soecode/task/web/TaskController.java" />
       </list>
     </option>
   </component>
@@ -151,12 +124,20 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
   <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -172,9 +153,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -255,16 +233,20 @@
         </subPane>
       </pane>
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/GitHub, Inc/GitHub.appref-ms" />
     <property name="project.structure.last.edited" value="Facets" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -381,7 +363,7 @@
       <listeners />
     </configuration>
     <configuration name="task" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.45" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8 (1)">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8008/task" />
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/task" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="task:war exploded">
@@ -473,45 +455,50 @@
       <workItem from="1525774199674" duration="7028000" />
       <workItem from="1525847835218" duration="6768000" />
       <workItem from="1525920741254" duration="616000" />
+      <workItem from="1526039110489" duration="9026000" />
+      <workItem from="1526087746101" duration="7315000" />
+      <workItem from="1526180389333" duration="4729000" />
+      <workItem from="1526199040206" duration="12641000" />
+      <workItem from="1526262730086" duration="4957000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25506000" />
+    <option name="totallyTimeSpent" value="64174000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23553163" sideWeight="0.5021322" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293011" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2701613" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21401028" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.4974293" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18959913" sideWeight="0.48773986" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.4978678" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1625964" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293011" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -523,15 +510,29 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/soecode/task/web/TaskController.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#3383#3389#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/soecode/task/web/TaskController.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1860">
           <caret line="85" column="25" lean-forward="false" selection-start-line="85" selection-start-column="25" selection-end-line="85" selection-end-column="25" />
-          <folding />
+          <folding>
+            <element signature="e#3383#3389#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -539,9 +540,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1260">
           <caret line="45" column="35" lean-forward="false" selection-start-line="45" selection-start-column="35" selection-end-line="45" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -549,23 +548,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="12" column="39" lean-forward="false" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
-          <folding>
-            <element signature="e#197#198#0" expanded="true" />
-            <element signature="e#226#227#0" expanded="true" />
-            <element signature="e#303#304#0" expanded="true" />
-            <element signature="e#340#341#0" expanded="true" />
-            <element signature="e#373#374#0" expanded="true" />
-            <element signature="e#425#426#0" expanded="true" />
-            <element signature="e#469#470#0" expanded="true" />
-            <element signature="e#502#503#0" expanded="true" />
-            <element signature="e#531#532#0" expanded="true" />
-            <element signature="e#575#576#0" expanded="true" />
-            <element signature="e#611#612#0" expanded="true" />
-            <element signature="e#644#645#0" expanded="true" />
-            <element signature="e#673#674#0" expanded="true" />
-            <element signature="e#717#718#0" expanded="true" />
-            <element signature="e#753#754#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -573,9 +555,58 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
           <caret line="16" column="27" lean-forward="false" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/soecode/task/dao/mapper/TaskDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1620">
+          <caret line="54" column="26" lean-forward="false" selection-start-line="54" selection-start-column="26" selection-end-line="54" selection-end-column="26" />
           <folding>
-            <element signature="e#433#434#0" expanded="true" />
+            <marker date="1526283449550" expanded="true" signature="301:350" ph="SELECT * FRO... task" />
+            <marker date="1526283449550" expanded="true" signature="301:394" ph="SELECT * FRO... task" />
+            <marker date="1526283449550" expanded="true" signature="301:404" ph="SELECT * FRO... task" />
+            <marker date="1526283449550" expanded="true" signature="446:536" ph="INSERT INTO task" />
+            <marker date="1526283449550" expanded="true" signature="596:645" ph="SELECT * FRO... task" />
+            <marker date="1526283449550" expanded="true" signature="701:782" ph="UPDATE task " />
+            <marker date="1526283449550" expanded="true" signature="829:885" ph="INSERT INTO acceptTask... " />
+            <marker date="1526283449550" expanded="true" signature="963:1051" ph="SELECT * FRO... acceptTask" />
+            <marker date="1526283449550" expanded="true" signature="1119:1197" ph="SELECT * FRO... task" />
+            <marker date="1526283449550" expanded="true" signature="1258:1391" ph="UPDATE accep... " />
+            <marker date="1526283449550" expanded="true" signature="1453:1565" ph="UPDATE accep... " />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/soecode/task/web/TaskController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1860">
+          <caret line="85" column="25" lean-forward="false" selection-start-line="85" selection-start-column="25" selection-end-line="85" selection-end-column="25" />
+          <folding>
+            <element signature="e#3383#3389#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/soecode/task/dao/TaskDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1260">
+          <caret line="45" column="35" lean-forward="false" selection-start-line="45" selection-start-column="35" selection-end-line="45" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/soecode/task/entity/AcceptTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="39" lean-forward="false" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/soecode/task/entity/Task.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="16" column="27" lean-forward="false" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
         </state>
       </provider>
     </entry>
@@ -584,14 +615,17 @@
         <state relative-caret-position="1620">
           <caret line="54" column="26" lean-forward="true" selection-start-line="54" selection-start-column="26" selection-end-line="54" selection-end-column="26" />
           <folding>
-            <marker date="1525864707715" expanded="true" signature="301:350" ph="SELECT * FRO... task" />
-            <marker date="1525864707715" expanded="true" signature="392:482" ph="INSERT INTO task" />
-            <marker date="1525864707715" expanded="true" signature="542:591" ph="SELECT * FRO... task" />
-            <marker date="1525864707715" expanded="true" signature="641:725" ph="UPDATE task " />
-            <marker date="1525864707715" expanded="true" signature="772:828" ph="INSERT INTO acceptTask... " />
-            <marker date="1525864707715" expanded="true" signature="880:969" ph="UPDATE task " />
-            <marker date="1525864707715" expanded="true" signature="1049:1137" ph="SELECT * FRO... acceptTask" />
-            <marker date="1525864707715" expanded="true" signature="1205:1283" ph="SELECT * FRO... task" />
+            <marker date="1526283449550" expanded="true" signature="301:350" ph="SELECT * FRO... task" />
+            <marker date="1526283449550" expanded="true" signature="301:394" ph="SELECT * FRO... task" />
+            <marker date="1526283449550" expanded="true" signature="301:404" ph="SELECT * FRO... task" />
+            <marker date="1526283449550" expanded="true" signature="446:536" ph="INSERT INTO task" />
+            <marker date="1526283449550" expanded="true" signature="596:645" ph="SELECT * FRO... task" />
+            <marker date="1526283449550" expanded="true" signature="701:782" ph="UPDATE task " />
+            <marker date="1526283449550" expanded="true" signature="829:885" ph="INSERT INTO acceptTask... " />
+            <marker date="1526283449550" expanded="true" signature="963:1051" ph="SELECT * FRO... acceptTask" />
+            <marker date="1526283449550" expanded="true" signature="1119:1197" ph="SELECT * FRO... task" />
+            <marker date="1526283449550" expanded="true" signature="1258:1391" ph="UPDATE accep... " />
+            <marker date="1526283449550" expanded="true" signature="1453:1565" ph="UPDATE accep... " />
           </folding>
         </state>
       </provider>
@@ -600,7 +634,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#3383#3389#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -608,9 +644,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
           <caret line="16" column="27" lean-forward="false" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
-          <folding>
-            <element signature="e#433#434#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -619,14 +652,17 @@
         <state relative-caret-position="1020">
           <caret line="34" column="18" lean-forward="false" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
           <folding>
-            <marker date="1525864707715" expanded="true" signature="301:350" ph="SELECT * FRO... task" />
-            <marker date="1525864707715" expanded="true" signature="392:482" ph="INSERT INTO task" />
-            <marker date="1525864707715" expanded="true" signature="542:591" ph="SELECT * FRO... task" />
-            <marker date="1525864707715" expanded="true" signature="641:725" ph="UPDATE task " />
-            <marker date="1525864707715" expanded="true" signature="772:828" ph="INSERT INTO acceptTask... " />
-            <marker date="1525864707715" expanded="true" signature="880:969" ph="UPDATE task " />
-            <marker date="1525864707715" expanded="true" signature="1049:1137" ph="SELECT * FRO... acceptTask" />
-            <marker date="1525864707715" expanded="true" signature="1205:1283" ph="SELECT * FRO... task" />
+            <marker date="1526283449550" expanded="true" signature="301:350" ph="SELECT * FRO... task" />
+            <marker date="1526283449550" expanded="true" signature="301:394" ph="SELECT * FRO... task" />
+            <marker date="1526283449550" expanded="true" signature="301:404" ph="SELECT * FRO... task" />
+            <marker date="1526283449550" expanded="true" signature="446:536" ph="INSERT INTO task" />
+            <marker date="1526283449550" expanded="true" signature="596:645" ph="SELECT * FRO... task" />
+            <marker date="1526283449550" expanded="true" signature="701:782" ph="UPDATE task " />
+            <marker date="1526283449550" expanded="true" signature="829:885" ph="INSERT INTO acceptTask... " />
+            <marker date="1526283449550" expanded="true" signature="963:1051" ph="SELECT * FRO... acceptTask" />
+            <marker date="1526283449550" expanded="true" signature="1119:1197" ph="SELECT * FRO... task" />
+            <marker date="1526283449550" expanded="true" signature="1258:1391" ph="UPDATE accep... " />
+            <marker date="1526283449550" expanded="true" signature="1453:1565" ph="UPDATE accep... " />
           </folding>
         </state>
       </provider>
@@ -635,9 +671,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="810">
           <caret line="29" column="28" lean-forward="false" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -645,7 +679,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="570">
           <caret line="36" column="40" lean-forward="false" selection-start-line="36" selection-start-column="40" selection-end-line="36" selection-end-column="40" />
-          <folding />
+          <folding>
+            <element signature="e#3383#3389#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -653,9 +689,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
           <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -664,14 +698,17 @@
         <state relative-caret-position="540">
           <caret line="18" column="40" lean-forward="false" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
           <folding>
-            <marker date="1525864707715" expanded="true" signature="301:350" ph="SELECT * FRO... task" />
-            <marker date="1525864707715" expanded="true" signature="392:482" ph="INSERT INTO task" />
-            <marker date="1525864707715" expanded="true" signature="542:591" ph="SELECT * FRO... task" />
-            <marker date="1525864707715" expanded="true" signature="641:725" ph="UPDATE task " />
-            <marker date="1525864707715" expanded="true" signature="772:828" ph="INSERT INTO acceptTask... " />
-            <marker date="1525864707715" expanded="true" signature="880:969" ph="UPDATE task " />
-            <marker date="1525864707715" expanded="true" signature="1049:1137" ph="SELECT * FRO... acceptTask" />
-            <marker date="1525864707715" expanded="true" signature="1205:1283" ph="SELECT * FRO... task" />
+            <marker date="1526283449550" expanded="true" signature="301:350" ph="SELECT * FRO... task" />
+            <marker date="1526283449550" expanded="true" signature="301:394" ph="SELECT * FRO... task" />
+            <marker date="1526283449550" expanded="true" signature="301:404" ph="SELECT * FRO... task" />
+            <marker date="1526283449550" expanded="true" signature="446:536" ph="INSERT INTO task" />
+            <marker date="1526283449550" expanded="true" signature="596:645" ph="SELECT * FRO... task" />
+            <marker date="1526283449550" expanded="true" signature="701:782" ph="UPDATE task " />
+            <marker date="1526283449550" expanded="true" signature="829:885" ph="INSERT INTO acceptTask... " />
+            <marker date="1526283449550" expanded="true" signature="963:1051" ph="SELECT * FRO... acceptTask" />
+            <marker date="1526283449550" expanded="true" signature="1119:1197" ph="SELECT * FRO... task" />
+            <marker date="1526283449550" expanded="true" signature="1258:1391" ph="UPDATE accep... " />
+            <marker date="1526283449550" expanded="true" signature="1453:1565" ph="UPDATE accep... " />
           </folding>
         </state>
       </provider>
@@ -680,7 +717,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="570">
           <caret line="36" column="40" lean-forward="false" selection-start-line="36" selection-start-column="40" selection-end-line="36" selection-end-column="40" />
-          <folding />
+          <folding>
+            <element signature="e#3383#3389#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -688,9 +727,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
           <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -699,14 +736,17 @@
         <state relative-caret-position="450">
           <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding>
-            <marker date="1525864707715" expanded="true" signature="301:350" ph="SELECT * FRO... task" />
-            <marker date="1525864707715" expanded="true" signature="392:482" ph="INSERT INTO task" />
-            <marker date="1525864707715" expanded="true" signature="542:591" ph="SELECT * FRO... task" />
-            <marker date="1525864707715" expanded="true" signature="641:725" ph="UPDATE task " />
-            <marker date="1525864707715" expanded="true" signature="772:828" ph="INSERT INTO acceptTask... " />
-            <marker date="1525864707715" expanded="true" signature="880:969" ph="UPDATE task " />
-            <marker date="1525864707715" expanded="true" signature="1049:1137" ph="SELECT * FRO... acceptTask" />
-            <marker date="1525864707715" expanded="true" signature="1205:1283" ph="SELECT * FRO... task" />
+            <marker date="1526283449550" expanded="true" signature="301:350" ph="SELECT * FRO... task" />
+            <marker date="1526283449550" expanded="true" signature="301:394" ph="SELECT * FRO... task" />
+            <marker date="1526283449550" expanded="true" signature="301:404" ph="SELECT * FRO... task" />
+            <marker date="1526283449550" expanded="true" signature="446:536" ph="INSERT INTO task" />
+            <marker date="1526283449550" expanded="true" signature="596:645" ph="SELECT * FRO... task" />
+            <marker date="1526283449550" expanded="true" signature="701:782" ph="UPDATE task " />
+            <marker date="1526283449550" expanded="true" signature="829:885" ph="INSERT INTO acceptTask... " />
+            <marker date="1526283449550" expanded="true" signature="963:1051" ph="SELECT * FRO... acceptTask" />
+            <marker date="1526283449550" expanded="true" signature="1119:1197" ph="SELECT * FRO... task" />
+            <marker date="1526283449550" expanded="true" signature="1258:1391" ph="UPDATE accep... " />
+            <marker date="1526283449550" expanded="true" signature="1453:1565" ph="UPDATE accep... " />
           </folding>
         </state>
       </provider>
@@ -715,7 +755,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#3383#3389#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -724,14 +766,17 @@
         <state relative-caret-position="540">
           <caret line="18" column="8" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
           <folding>
-            <marker date="1525864707715" expanded="true" signature="301:350" ph="SELECT * FRO... task" />
-            <marker date="1525864707715" expanded="true" signature="392:482" ph="INSERT INTO task" />
-            <marker date="1525864707715" expanded="true" signature="542:591" ph="SELECT * FRO... task" />
-            <marker date="1525864707715" expanded="true" signature="641:725" ph="UPDATE task " />
-            <marker date="1525864707715" expanded="true" signature="772:828" ph="INSERT INTO acceptTask... " />
-            <marker date="1525864707715" expanded="true" signature="880:969" ph="UPDATE task " />
-            <marker date="1525864707715" expanded="true" signature="1049:1137" ph="SELECT * FRO... acceptTask" />
-            <marker date="1525864707715" expanded="true" signature="1205:1283" ph="SELECT * FRO... task" />
+            <marker date="1526283449550" expanded="true" signature="301:350" ph="SELECT * FRO... task" />
+            <marker date="1526283449550" expanded="true" signature="301:394" ph="SELECT * FRO... task" />
+            <marker date="1526283449550" expanded="true" signature="301:404" ph="SELECT * FRO... task" />
+            <marker date="1526283449550" expanded="true" signature="446:536" ph="INSERT INTO task" />
+            <marker date="1526283449550" expanded="true" signature="596:645" ph="SELECT * FRO... task" />
+            <marker date="1526283449550" expanded="true" signature="701:782" ph="UPDATE task " />
+            <marker date="1526283449550" expanded="true" signature="829:885" ph="INSERT INTO acceptTask... " />
+            <marker date="1526283449550" expanded="true" signature="963:1051" ph="SELECT * FRO... acceptTask" />
+            <marker date="1526283449550" expanded="true" signature="1119:1197" ph="SELECT * FRO... task" />
+            <marker date="1526283449550" expanded="true" signature="1258:1391" ph="UPDATE accep... " />
+            <marker date="1526283449550" expanded="true" signature="1453:1565" ph="UPDATE accep... " />
           </folding>
         </state>
       </provider>
@@ -740,9 +785,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
           <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -757,9 +800,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="720">
           <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding>
-            <element signature="e#2197#2215#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -809,14 +849,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="7" column="14" lean-forward="false" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/artifacts/medical_war_exploded.xml" />
     <entry file="file://$PROJECT_DIR$/.idea/artifacts/medical_war.xml" />
     <entry file="jar://D:/Program Files/java/jdk/jre/lib/ext/jfxrt.jar!/com/sun/webkit/network/effective_tld_names.dat">
@@ -847,81 +879,95 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/soecode/task/web/BookController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="28" column="18" lean-forward="true" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
-          <folding>
-            <element signature="e#2197#2215#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/soecode/task/entity/AcceptTask.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="12" column="39" lean-forward="false" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="149" column="0" lean-forward="false" selection-start-line="149" selection-start-column="0" selection-end-line="149" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/soecode/task/util/HttpRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="21" column="29" lean-forward="false" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/soecode/task/web/BookController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-174">
+          <caret line="28" column="18" lean-forward="true" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/soecode/task/dao/mapper/BookDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-369">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#197#198#0" expanded="true" />
-            <element signature="e#226#227#0" expanded="true" />
-            <element signature="e#303#304#0" expanded="true" />
-            <element signature="e#340#341#0" expanded="true" />
-            <element signature="e#373#374#0" expanded="true" />
-            <element signature="e#425#426#0" expanded="true" />
-            <element signature="e#469#470#0" expanded="true" />
-            <element signature="e#502#503#0" expanded="true" />
-            <element signature="e#531#532#0" expanded="true" />
-            <element signature="e#575#576#0" expanded="true" />
-            <element signature="e#611#612#0" expanded="true" />
-            <element signature="e#644#645#0" expanded="true" />
-            <element signature="e#673#674#0" expanded="true" />
-            <element signature="e#717#718#0" expanded="true" />
-            <element signature="e#753#754#0" expanded="true" />
+            <marker date="1525622555792" expanded="true" signature="320:403" ph="SELECT book_... book" />
+            <marker date="1525622555792" expanded="true" signature="461:563" ph="SELECT book_... book" />
+            <marker date="1525622555792" expanded="true" signature="607:692" ph="UPDATE book " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/soecode/task/dao/BookDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="25" column="40" lean-forward="false" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/soecode/task/entity/Task.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/soecode/task/dao/TaskDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="59" column="51" lean-forward="true" selection-start-line="59" selection-start-column="51" selection-end-line="59" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/soecode/task/dao/mapper/TaskDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="515">
+          <caret line="83" column="9" lean-forward="true" selection-start-line="83" selection-start-column="9" selection-end-line="83" selection-end-column="9" />
+          <folding>
+            <marker date="1526283449550" expanded="true" signature="301:350" ph="SELECT * FRO... task" />
+            <marker date="1526283449550" expanded="true" signature="301:394" ph="SELECT * FRO... task" />
+            <marker date="1526283449550" expanded="true" signature="301:404" ph="SELECT * FRO... task" />
+            <marker date="1526283449550" expanded="true" signature="446:536" ph="INSERT INTO task" />
+            <marker date="1526283449550" expanded="true" signature="596:645" ph="SELECT * FRO... task" />
+            <marker date="1526283449550" expanded="true" signature="701:782" ph="UPDATE task " />
+            <marker date="1526283449550" expanded="true" signature="829:885" ph="INSERT INTO acceptTask... " />
+            <marker date="1526283449550" expanded="true" signature="963:1051" ph="SELECT * FRO... acceptTask" />
+            <marker date="1526283449550" expanded="true" signature="1119:1197" ph="SELECT * FRO... task" />
+            <marker date="1526283449550" expanded="true" signature="1258:1391" ph="UPDATE accep... " />
+            <marker date="1526283449550" expanded="true" signature="1453:1565" ph="UPDATE accep... " />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/soecode/task/web/TaskController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1860">
-          <caret line="85" column="25" lean-forward="false" selection-start-line="85" selection-start-column="25" selection-end-line="85" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/soecode/task/entity/Task.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="16" column="27" lean-forward="false" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+        <state relative-caret-position="411">
+          <caret line="73" column="65" lean-forward="false" selection-start-line="73" selection-start-column="64" selection-end-line="73" selection-end-column="65" />
           <folding>
-            <element signature="e#433#434#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/soecode/task/dao/TaskDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1260">
-          <caret line="45" column="35" lean-forward="false" selection-start-line="45" selection-start-column="35" selection-end-line="45" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/com/soecode/task/dao/mapper/TaskDao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="54" column="26" lean-forward="false" selection-start-line="54" selection-start-column="26" selection-end-line="54" selection-end-column="26" />
-          <folding>
-            <marker date="1525864707715" expanded="true" signature="301:350" ph="SELECT * FRO... task" />
-            <marker date="1525864707715" expanded="true" signature="392:482" ph="INSERT INTO task" />
-            <marker date="1525864707715" expanded="true" signature="542:591" ph="SELECT * FRO... task" />
-            <marker date="1525864707715" expanded="true" signature="641:725" ph="UPDATE task " />
-            <marker date="1525864707715" expanded="true" signature="772:828" ph="INSERT INTO acceptTask... " />
-            <marker date="1525864707715" expanded="true" signature="880:969" ph="UPDATE task " />
-            <marker date="1525864707715" expanded="true" signature="1049:1137" ph="SELECT * FRO... acceptTask" />
-            <marker date="1525864707715" expanded="true" signature="1205:1283" ph="SELECT * FRO... task" />
+            <element signature="e#3383#3389#0" expanded="true" />
           </folding>
         </state>
       </provider>
